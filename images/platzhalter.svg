@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <rect width="1200" height="800" fill="#e8ecef"/>
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#cbd2d8" stroke-width="2"/>
+  <text x="600" y="412" text-anchor="middle" font-family="EB Garamond, Garamond, Georgia, serif" font-style="italic" font-size="34" fill="#15181b">Abbildung folgt</text>
+</svg>
