@@ -1,10 +1,8 @@
 /* ------------------------------------------------------------------
    Carla-Lotta Fromm — Portfolio, 
-   Frontispiece header, Cormorant display face, marginal section
+   Frontispiece header, Arial throughout, marginal section
    headings on wide screens, numbered works, matted images.
    ------------------------------------------------------------------ */
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 :root {
   --paper: #f3f5f7;           /* cool light grey with a touch of ice blue (warm paper was #f7f4ee) */
@@ -14,8 +12,8 @@
   --ink-faint: #15181b;
   --rule: #cbd2d8;
 
-  --display: 'Playfair Display', 'Georgia', serif;   /* headings; alternatives tried: Cormorant Garamond (slanted hyphen), EB Garamond, Cardo */
-  --text: 'EB Garamond', 'Garamond', 'Georgia', 'Times New Roman', serif;
+  --display: Arial, Helvetica, sans-serif;   /* earlier: Playfair Display */
+  --text: Arial, Helvetica, sans-serif;      /* earlier: EB Garamond */
 
   --margin-col: 11rem;        /* width of the marginal heading column */
   --gutter: 3.5rem;
@@ -38,7 +36,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 
 html {
-  font-size: 118.75%;         /* 19px */
+  font-size: 106.25%;         /* 17px; Arial runs larger than Garamond */
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
 }
@@ -49,7 +47,7 @@ body {
   color: var(--ink);
   font-family: var(--text);
   line-height: 1.55;
-  font-feature-settings: "liga", "kern", "onum";
+  font-feature-settings: "liga", "kern";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   counter-reset: work;
